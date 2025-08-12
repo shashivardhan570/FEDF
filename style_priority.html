@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Priority Demo</title>
+
+  <!--External CSS file linked here -->
+  <link rel="stylesheet" href="style2.css">
+
+  <!--Internal (Document-level) CSS -->
+  <style>
+    p {
+      color: blue;
+      font-size: 18px;
+      background-color: lightyellow;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>CSS Priority Example</h2>
+
+  <!--Inline CSS -->
+  <p style="color: red; font-size: 22px; background-color: lightgreen;">
+    This paragraph has all three levels of CSS applied: inline, internal, and external.
+  </p>
+
+</body>
+</html>

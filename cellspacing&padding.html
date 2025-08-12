@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Timetable with Cellspacing and Cellpadding</title>
+  <style>
+    body {
+      background-color: #f4f4f4;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+      color: #800000;
+    }
+
+    table {
+      margin: 20px auto;
+      border: 2px solid #444;
+      background-color: #fff;
+    }
+
+    th, td {
+      border: 1px solid #999;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    th {
+      background-color: #a52a2a;
+      color: white;
+    }
+
+    td {
+      background-color: #fcfcfc;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Academic Timetable</h1>
+
+<!-- Table with cellpadding (inside space) and cellspacing (space between cells) -->
+<table cellspacing="10" cellpadding="15">
+  <tr>
+    <th>Day</th>
+    <th>1</th>
+    <th>2</th>
+    <th>3</th>
+    <th>4</th>
+    <th>5</th>
+  </tr>
+
+  <tr>
+    <td>Monday</td>
+    <td>Math</td>
+    <td>Physics</td>
+    <td>Chemistry</td>
+    <td>English</td>
+    <td>Free</td>
+  </tr>
+
+  <tr>
+    <td>Tuesday</td>
+    <td>Biology</td>
+    <td>Math</td>
+    <td>History</td>
+    <td>English</td>
+    <td>Free</td>
+  </tr>
+
+  <tr>
+    <td>Wednesday</td>
+    <td colspan="2">Computer Lab</td>
+    <td>Physics</td>
+    <td>Chemistry</td>
+    <td>Free</td>
+  </tr>
+
+  <tr>
+    <td>Thursday</td>
+    <td>Math</td>
+    <td>Biology</td>
+    <td>History</td>
+    <td>Geography</td>
+    <td>Free</td>
+  </tr>
+
+  <tr>
+    <td>Friday</td>
+    <td>English</td>
+    <td>Physics</td>
+    <td colspan="2">Sports</td>
+    <td>Free</td>
+  </tr>
+</table>
+
+</body>
+</html>

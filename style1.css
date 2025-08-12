@@ -1,0 +1,27 @@
+/* Body takes full screen and centers the content */
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #e0f7fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px; /* Enables 3D perspective */
+}
+
+/* Image container */
+.image-container img {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    border-radius: 12px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    transform: rotateY(10deg) rotateX(10deg);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+/* On hover, enhance the 3D feel */
+.image-container img:hover {
+    transform: rotateY(0deg) rotateX(0deg) scale(1.05);
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
+}

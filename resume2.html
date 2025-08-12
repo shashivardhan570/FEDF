@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gajula Shashivardhan - Resume</title>
+    <style>
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background: #f4f7fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        /* Container */
+        .container {
+            max-width: 1100px;
+            margin: 40px auto;
+            background: #fff;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            overflow: hidden;
+        }
+        /* Left Column */
+        .left {
+            background: #2c3e50;
+            color: white;
+            padding: 40px 30px;
+        }
+        .left h1 {
+            font-size: 28px;
+            margin-bottom: 5px;
+        }
+        .left h2 {
+            font-size: 16px;
+            font-weight: 400;
+            color: #bdc3c7;
+        }
+        .section-title {
+            font-size: 16px;
+            text-transform: uppercase;
+            margin: 30px 0 10px;
+            border-bottom: 1px solid #7f8c8d;
+            padding-bottom: 5px;
+        }
+        .info p, .languages ul, .contact p {
+            margin: 10px 0;
+            font-size: 14px;
+        }
+        .languages ul {
+            list-style: none;
+            padding: 0;
+        }
+        .languages li {
+            background: #34495e;
+            margin-bottom: 8px;
+            padding: 5px 10px;
+            border-radius: 4px;
+        }
+        /* Right Column */
+        .right {
+            padding: 40px;
+        }
+        .right h3 {
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            color: #2c3e50;
+            font-size: 20px;
+        }
+        .right ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        .right li {
+            margin-bottom: 15px;
+        }
+        .right li strong {
+            color: #2c3e50;
+        }
+        .summary, .certifications, .projects, .hackathons, .achievements, .extracurricular {
+            margin-bottom: 30px;
+        }
+        /* Responsive */
+        @media(max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+            .left, .right {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Left Column -->
+        <div class="left">
+            <h1>Gajula Shashivardhan</h1>
+            <h2>B.Tech CSE Student</h2>
+
+            <div class="contact">
+                <h3 class="section-title">Contact</h3>
+                <p>📍 Hyderabad, India</p>
+                <p>📧 gajulashashivardhan@gmail.com</p>
+            </div>
+
+            <div class="languages">
+                <h3 class="section-title">Languages</h3>
+                <ul>
+                    <li>English</li>
+                    <li>Hindi</li>
+                    <li>Telugu</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Right Column -->
+        <div class="right">
+            <div class="summary">
+                <h3>Summary</h3>
+                <p>Computer Science student pursuing a focused learning path in Artificial Intelligence and Machine Learning with hands-on project experience. Proficient in Python, C++, SQL, and C, with strong fundamentals in data structures, algorithms, and database management.</p>
+            </div>
+
+            <div class="education">
+                <h3>Education</h3>
+                <ul>
+                    <li>
+                        <strong>KL University</strong> – B.Tech CSE (2024-2028)<br/>
+                        CGPA: 8.3/10<br/>
+                        Coursework: DSA, DBMS, OOPS, OS
+                    </li>
+                    <li>
+                        <strong>Sri Chaitanya Junior College</strong> – 12th (2022-2024)<br/>
+                        Percentage: 92.5<br/>
+                        Coursework: Maths, Physics, Chemistry
+                    </li>
+                    <li>
+                        <strong>Saint Claire High School</strong> – 10th (2021-2022)<br/>
+                        CGPA: 9.5/10<br/>
+                        Coursework: General Curriculum
+                    </li>
+                </ul>
+            </div>
+
+            <div class="technologies">
+                <h3>Technologies & Skills</h3>
+                <ul>
+                    <li><strong>Languages:</strong> Python, C++, SQL, C</li>
+                    <li><strong>Domains:</strong> AI/ML, Data Science, DSA, DBMS, Cloud Computing, IoT</li>
+                </ul>
+            </div>
+
+            <div class="projects">
+                <h3>Projects</h3>
+                <ul>
+                    <li>
+                        <strong>Agri-Commodity Price Prediction using LSTM</strong> [<a href="#">GitHub</a>]<br/>
+                        - Built an AI model to predict commodity prices using LSTM.<br/>
+                        - Tools Used: Python, Pandas, Matplotlib
+                    </li>
+                </ul>
+            </div>
+
+            <div class="certifications">
+                <h3>Certifications</h3>
+                <ul>
+                    <li>
+                        <strong>Python Basic and Intermediate</strong> – Codecademy<br/>
+                        - Completed interactive exercises, projects, and quizzes to reinforce key concepts.
+                    </li>
+                    <li>
+                        <strong>C Essentials 1</strong> – Cisco Networking Academy<br/>
+                        - Gained foundational knowledge in C programming and structured software development.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="hackathons">
+                <h3>Hackathon</h3>
+                <ul>
+                    <li>
+                        <strong>RAMPage V2.5 – 24-Hour Hackathon</strong><br/>
+                        - Qualified for final round, demonstrating strong technical skills and innovative thinking.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="achievements">
+                <h3>Achievements</h3>
+                <ul>
+                    <li>
+                        <strong>CodeChef 500 Rating Problems Completion</strong><br/>
+                        - Completed all 500 difficulty practice problems, strengthening coding and algorithms.
+                    </li>
+                    <li>
+                        <strong>CodeChef 2-Star Rating</strong><br/>
+                        - Achieved 2-star rating through consistent contest participation.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="extracurricular">
+                <h3>Extracurricular Activities</h3>
+                <ul>
+                    <li>Drawing</li>
+                    <li>Swimming</li>
+                    <li>Reading Books</li>
+                    <li>Chess</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
